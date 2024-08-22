@@ -1,22 +1,17 @@
-# Hackathon_1_FAB_team_2 (ChatBot and Mermaidcode Generation)
+# Mermaid Code Generation FastAPI Server
 
 [Working Demo](https://fab-team.xyz/chat-interface)
 
 [Individual Demos from the team](https://drive.google.com/drive/folders/1-P_toKdJ-SRMLXh0ZMZMdOPXgWeuQkkU?usp=sharing)
 
-Our 2 Repos for the phase_2:
+## Features
+- The application uses AWS Bedrock to communicate with Anthropic's Claude 3 Haiku to facilitate a conversation with the user.
+- CI/CD pipeline is setup using GitHub Actions to automate deployment on AWS EC2.
 
-https://github.com/geekleteam/Hackathon_1_FAB_team_2; 
 
-https://github.com/geekleteam/Hackathon_1_FAB_team_3
+## Conversational Bot
 
-## Converstational Bot
-
-Chat LLM API: 
-- http://18.237.155.139:8000/chat-llm
-- https://18.237.155.139:8000/chat-llm
-
-This API is used to push user's chat with the bot to the database.
+This API is used to push user's chat with the bot to the database and returns a 
 ```json
 {
     "userID": "user123",
@@ -39,9 +34,8 @@ Response:
 ```
 
 ## Mermaid Code Generation
-Mermaid Code Generation API: 
-- http://18.237.155.139:8000/generate-mermaid
-- https://18.237.155.139:8000/generate-mermaid
+
+
 (would only work if the user has had a chat session before)
 This API tells the backend to fetch user chats and return the mermaid code for user requirements.
 
