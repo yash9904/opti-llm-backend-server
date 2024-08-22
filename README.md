@@ -7,6 +7,9 @@
 ## Cloud Infrastructure
 ![Mermaid Code Generation Miro](https://github.com/user-attachments/assets/57add8df-ce53-43da-ac88-432ae0196e51)
 
+## Web Application
+![optillm_webapp](https://github.com/user-attachments/assets/83ae8153-e09a-44d3-be50-b63b07d71eb6)
+
 ## Features
 - The application uses AWS Bedrock to communicate with Anthropic's Claude 3 Haiku to facilitate a conversation with the user.
 - CI/CD pipeline is setup using GitHub Actions to automate deployment on AWS EC2.
